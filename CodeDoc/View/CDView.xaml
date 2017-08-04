@@ -29,7 +29,7 @@
                   Background="#FF565656" 
                   BorderThickness="0" 
                   Margin="5,5,5,5" 
-                  ItemsSource="{Binding Folders}" >
+                  ItemsSource="{Binding Folders}">
 
             <e:Interaction.Behaviors>
                 <behaviours:BindableSelectedTreeViewItem SelectedItem="{Binding SelectedItem, Mode=TwoWay}" />
